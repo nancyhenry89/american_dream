@@ -9,21 +9,23 @@ img{max-width:100%}
 .banner-left{padding-left:54px;padding-top:53px}
 .slogan{font-size:51px;font-weight:lighter;-webkit-font-smoothing:antialiased;padding-top:36px;line-height:68px;padding-left:135px}
 .slogan b{display:block}
-.form{background:var(--color1);padding:3px 43px;width:360px;margin-left:-28px;margin-top:44px;padding-top:1px;box-shadow:18px 16px #62666a}
-.fields-cont>*{display:block;width:100%;border:0;margin:10px 0;padding:6px 15px;margin-bottom:17px;font-size:17px}
-.form button.btn{background:#2b2b2b;color:#fff;height:40px;margin-top:-3px;border-radius:0;font-size:21px;line-height:27px;margin-bottom:0;transition:all .5s ease}
-.form-check{font-size:12px;padding:0;margin-top:7px;word-spacing:1px}
+.fluid-container.steps-cont {
+    background: #fddfdc;
+}
+.form{background: #fff;padding:3px 43px;width:360px;margin-left:-28px;margin-top:44px;padding-top:1px;}
+.fields-cont>*{display:block;width:100%;border:0;margin:10px 0;padding:6px 15px;margin-bottom:17px;font-size:17px;border: 1px solid;}
+button.btn{background: #dded00;color:#fff;height:40px;margin-top:-3px;border-radius:0;font-size:21px;line-height:27px;margin-bottom:0;transition:all .5s ease;}
+.form-check{font-size:12px;padding:0;margin-top:7px;word-spacing:1px;border: 0;}
 input#tc{float:left;margin-right:-8px;box-shadow:none;border:0;border-radius:0}
-label.form-check-label{width:calc(100% - 37px);color:#fff;text-align:left}
+label.form-check-label{width:calc(100% - 37px);color: #090909;text-align:left;}
 .price-time{color:var(--color1);text-align:center;border-top:1px solid var(--color1);border-bottom:1px solid var(--color1);float:left;margin-top:12px;font-size:23px;margin-bottom:8px;font-weight:700;line-height:39px;letter-spacing:1px;width:346px;max-width:90%}
 .price-time>div{float:left}
-.price{border-right:1px solid var(--color1);width:197px;max-width:60%}
+.price{/* border-right:1px solid var(--color1); *//* width:197px; *//* max-width:60%; */}
 .type-logo{border-right:2px solid var(--color1);width:101px;padding-right:10px;margin-left:-7px;height:284px}
 .type button.btn{background:var(--color2);width:calc(100% - 32px);color:#fff;margin-left:-22px;height:48px;margin-top:10px;box-shadow:2px 3px #aaa6a0;font-size:19px;text-transform:uppercase;word-spacing:4px;transition:all .5s ease}
 .stamp{margin-top:40px;margin-left:90px}
 p.desc{font-size:17px;padding-top:17px;padding-left:180px;padding-right:50px}
-.form .title{margin-bottom:22px;font-size:25px;margin-top:17px}
-.slogan:after{content:"...";color:var(--color1);line-height:1px;font-size:36px;letter-spacing:6px;height:7px;display:block;margin-top:-7px}
+.form .title{margin-bottom:22px;font-size:25px;margin-top:17px;color: #0009aa;}
 .type{margin-top:30px}
 .type-title{font-size:25px;margin-top:7px;margin-bottom:1px}
 .type-detail{padding-left:29px}
@@ -31,7 +33,7 @@ p.desc{font-size:17px;padding-top:17px;padding-left:180px;padding-right:50px}
 .time{width:145px;max-width:40%}
 .type-detail p{font-size:20px;width:100%;float:left;padding-right:26px;word-spacing:-1px}
 .type:last-of-type{margin-left:-44px}
-footer{background:url(../imgs/footer.png);height:150px;background-size:100% 150px;margin-top:23px;background-repeat:no-repeat}
+footer{background: #ededed;height:150px;background-size:100% 150px;margin-top:23px;background-repeat:no-repeat;}
 .form button.btn:hover{background:#555}
 .type button.btn:hover{background:#5ec039}
 @media screen and (max-width: 1500px) {
