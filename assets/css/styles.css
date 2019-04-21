@@ -192,7 +192,7 @@ footer .logo{width: 100px;padding-left:0;}
 .ball .next{font-size: 11px;}
 .balls>div{padding:0}
 p.desc{font-size:15px}
-input#tc{margin-top:-5px}
+input#tc{margin-top: -1px;}
 .slogan{
     padding-top: 0;
     font-size: 17px;
@@ -209,5 +209,6 @@ label.form-check-label{
     line-height: 9px;
 }
 button.btn{height:40px}
-
+.form-check{margin-top:0;margin-bottom: 0!important;padding-top: 0;}
+.fields-cont>*{margin-bottom: 10px;}
 }
