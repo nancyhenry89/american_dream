@@ -16,7 +16,7 @@ footer .text p{margin-bottom:0}
 .ball-img img{height:auto}
 .win{color:#ff1500;font-size:56px;font-weight:700;-webkit-text-stroke-width:4px;-webkit-text-stroke-color:#ff1500;letter-spacing:8px;text-align:center;margin-top:-13px;-webkit-font-smoothing:antialiased;z-index:9;position:relative}
 .win.win-shadow{font-size:56px;position:relative;margin-top:-80px;-webkit-text-stroke-width:8px;-webkit-text-stroke-color:#0009aa;z-index:8;margin-left:1px;color:#0009aa}
-.bg.banner{background:url(../imgs/bg.png);height:645px;background-repeat:no-repeat;background-size:100%;background-repeat:no-repeat;background-position:0 191px;padding-top:209px}
+.bg.banner{background:url(../imgs/bg.png);height: 734px;background-repeat:no-repeat;background-size: 129%;background-repeat:no-repeat;background-position: -140px 191px;padding-top:209px;}
 .logo{width:144px;margin-top:49px;padding-left:47px}
 .banner .container{ text-align:center}
 .banner-left{padding-left:54px;padding-top:53px}
@@ -42,7 +42,7 @@ label.form-check-label{width:calc(100% - 7px);color:#090909;text-align:left;padd
 .container-fluid.header{position:absolute;width:100%;z-index:9;overflow:hidden}
 .fields-cont{padding:0 23px}
 .stamp{margin-top:12px;width:181px;position:absolute;right:20px;z-index:9}
-p.desc{font-size:12px;padding-top:75px;font-weight:700;width:54%;margin:auto;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px}
+p.desc{font-size:12px;padding-top: 185px;font-weight:700;width:54%;margin:auto;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px;}
 .form .title{margin-bottom:17px;font-size:26px;margin-top:28px;color:#0009aa;font-weight:700;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#0009aa;letter-spacing:1px}
 .type{margin-top:30px}
 .type-title{font-size:25px;margin-top:7px;margin-bottom:1px}
