@@ -183,7 +183,7 @@ input#tc{margin-top:-5px}
 .form .title{font-size:20px}
 }
 @media screen and (max-width:320px) {
-.bg.banner{height:110px;background-position: 0 47px;}
+.bg.banner{height: 100px;background-position: 0 37px;}
 
 footer .logo{width: 100px;padding-left:0;}
 .action h4{
@@ -197,10 +197,10 @@ input#tc{margin-top: -1px;}
     padding-top: 0;
     font-size: 17px;
 }
-.win{font-size: 16px;margin-top: 0;-webkit-text-stroke-width:2px;letter-spacing:5px;}
+.win{font-size: 16px;margin-top: -6px;-webkit-text-stroke-width:2px;letter-spacing:5px;}
 .win.win-shadow{font-size: 16px;margin-top: -23px;-webkit-text-stroke-width:4px;}
-.stamp{width:70px;margin-top: 65px;}
-.banner-right{margin-top: 110px;}
+.stamp{width:70px;margin-top: 58px;}
+.banner-right{margin-top: 101px;}
 .fields-cont>*{padding:6px 19px}
 label.form-check-label{
     width: calc(100% - 5px);
