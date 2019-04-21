@@ -70,7 +70,7 @@ footer{background:#ededed;height:150px;background-size:100% 150px;margin-top:9px
 label.form-check-label{line-height:13px;font-size:10px}
 button.btn{height:50px}
 .bg.banner{height:750px;background-size:130%;background-position:-250px 170px}
-p.desc{font-size:18px;width:81%}
+p.desc{font-size:18px;width:81%;padding-top: 120px;}
 .row.balls{width:90%;margin-top:80px;font-size:16px}
 .ball-img{width:100px;margin-bottom:40px}
 .balls>div:nth-of-type(2) .ball-img{width:121px}
