@@ -152,6 +152,7 @@ footer{float:left;height:160px}
 footer .text{width:90%}
 }
 @media screen and (max-width: 767px) {
+    input#tc{margin-top:-5px}
 .win{font-size:26px;margin-top:0;-webkit-text-stroke-width:2px;letter-spacing:6px}
 .ball{margin:30px 0}
 .win.win-shadow{font-size:26px;margin-top:-38px;-webkit-text-stroke-width:5px}
