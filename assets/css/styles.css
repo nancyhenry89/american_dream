@@ -29,7 +29,7 @@ footer .text p{margin-bottom:0}
     color: #0009aa;
 }
 .bg.banner{background:url(../imgs/bg.png);height:645px;background-repeat:no-repeat;background-size:100%;background-repeat:no-repeat;background-position:0 191px;padding-top:209px;}
-.logo{width: 124px;margin-top:49px;padding-left: 47px;}
+.logo{width: 144px;margin-top:49px;padding-left: 47px;}
 .banner .container{text-align:center}
 .banner-left{padding-left:54px;padding-top:53px}
 .slogan{font-size:35px;font-weight:700;-webkit-font-smoothing:antialiased;padding-top:78px;line-height:68px;text-align:center;margin-left:-15px;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#010101;letter-spacing:1px}
@@ -71,7 +71,123 @@ footer .logo{margin:auto;padding-left: 0;}
 footer{background:#ededed;height:150px;background-size:100% 150px;margin-top:9px;background-repeat:no-repeat;text-align:center;padding:30px 0!important}
 .form button.btn:hover{background:#555}
 .type button.btn:hover{background:#5ec039}
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1500px) {
+    .logo {
+    width: 180px;
+}
+
+.slogan {
+    font-size: 46px;
+}
+
+.win {
+    font-size: 60px;
+}
+
+.win.win-shadow {
+    font-size: 60px;
+    margin-top: -85px;
+}
+
+.form .title {
+    font-size: 36px;
+}
+
+.form {
+    width: 380px;
+}
+
+.fields-cont>* {
+    padding: 10px;
+    font-size: 14px;
+}
+
+label.form-check-label {
+    line-height: 13px;
+    font-size: 10px;
+}
+
+button.btn {
+    height: 50px;
+}
+
+.bg.banner {
+    height: 750px;
+    background-size: 130%;
+    background-position: -250px 170px;
+}
+
+p.desc {
+    font-size: 18px;
+    width: 81%;
+}
+
+.row.balls {
+    width: 90%;
+    margin-top: 80px;
+    font-size: 16px;
+}
+
+.ball-img {
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.balls>div:nth-of-type(2) .ball-img {
+    width: 121px;
+}
+
+.balls>div:nth-of-type(4) .ball-img {
+    width: 112px;
+    margin-bottom: 50px;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.row.balls {}
+
+.steps h5 {
+    font-size: 33px;
+}
+
+.action .btn.primary {
+    font-size: 25px;
+}
+
+.row.steps {
+    width: 90%;
+}
+
+.step .name {
+    font-size: 20px;
+    width: 100%;
+}
+
+footer .text {
+    font-size: 15px;
+    width: 100%;
+}
+
+footer.container-fluid {
+    height: 200px;
+}
+
+.step .img {
+    width: 100px;
+    margin-bottom: 50px;
+    height: 84px;
+}
+
+.steps>div:nth-of-type(2) .img {
+    width: 75px;
+}
+
+.action h4 {
+    font-size: 35px;
+    margin-top: 50px;
+}
 .container{width: 100%;padding: 0;}
 .type-logo{margin-left:0;height:240px}
 .type-detail{padding-left:40px}
@@ -92,9 +208,7 @@ p.desc{padding-left:10px}
 
 }
 @media screen and (max-width:992px) {
-.type-detail{padding-left:15px}
-.type-detail p{font-size:16px}
-}
+.steps{display:none}}
 @media screen and (max-width:768px) {
     .fields-cont{padding:0 15px}
     .action {float: left;width: 100%;}
