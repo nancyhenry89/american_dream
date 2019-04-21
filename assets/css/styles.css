@@ -175,8 +175,8 @@ p.desc{font-size:15px}
 input#tc{margin-top:-5px}
 .slogan{font-size: 19px;letter-spacing: 0px;-webkit-text-stroke-width: 0px;}
 .action h4{font-size:20px}
-.win{font-size:20px;margin-top:0;-webkit-text-stroke-width:2px;letter-spacing:5px}
-.win.win-shadow{font-size:20px;margin-top:-28px;-webkit-text-stroke-width:4px}
+.win{font-size: 24px;margin-top:0;-webkit-text-stroke-width: 1px;letter-spacing:5px;}
+.win.win-shadow{font-size: 24px;margin-top: -34px;-webkit-text-stroke-width: 3px;}
 .bg.banner{height:130px}
 .stamp{width:90px;margin-top:85px}
 .banner-right{margin-top:120px}
@@ -197,8 +197,8 @@ input#tc{margin-top: 1px;}
     padding-top: 0;
     font-size: 17px;
 }
-.win{font-size: 16px;margin-top: 0;-webkit-text-stroke-width:2px;letter-spacing:5px;}
-.win.win-shadow{font-size: 16px;margin-top: -23px;-webkit-text-stroke-width:4px;}
+.win{font-size: 18px;margin-top: 0;-webkit-text-stroke-width: 2px;letter-spacing:5px;}
+.win.win-shadow{font-size: 18px;margin-top: -25px;-webkit-text-stroke-width: 3px;}
 .stamp{width:70px;margin-top: 65px;}
 .banner-right{margin-top: 110px;}
 .fields-cont>*{padding:6px 19px}
