@@ -177,3 +177,14 @@ footer .text a{text-decoration:underline}
 .banner-right{margin-top:120px}
 .form .title{font-size:20px}
 }
+@media screen and (max-width:320px) {
+
+footer .logo{width: 100px;padding-left:0;}
+.action h4{
+    font-size: 19px;
+}
+.ball .next{font-size: 11px;}
+.balls>div{padding:0}
+p.desc{font-size:15px}
+input#tc{margin-top:-5px}
+}
