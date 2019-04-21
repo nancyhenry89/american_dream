@@ -186,8 +186,8 @@ input#tc{margin-top:-5px}
 .win.win-shadow{font-size: 24px;margin-top: -34px;-webkit-text-stroke-width: 3px;}
 .bg.banner{height: 154px;}
 .stamp{width:90px;margin-top:85px}
-.banner-right{margin-top:120px}
-.form .title{font-size:20px}
+.banner-right{margin-top: 140px;}
+.form .title{font-size:20px;}
 }
 @media screen and (max-width:320px) {
 .bg.banner{height:110px;background-position: 0 47px;}
