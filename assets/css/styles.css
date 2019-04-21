@@ -4,7 +4,7 @@ img{max-width:100%}
 .container-fluid{padding:0}
 .mobile{display:none}
 .step{margin-top:9px}
-.steps>div:nth-of-type(2) .img{width:60px;}
+.steps>div:nth-of-type(2) .img{width:60px}
 footer .text{font-size:10px;width:70%;margin:auto;color:#6b6b6b;margin-bottom:7px}
 footer .text a{color:#6b6b6b}
 .row{max-width:100%;margin:0}
@@ -16,9 +16,9 @@ footer .text p{margin-bottom:0}
 .ball-img img{height:auto}
 .win{color:#ff1500;font-size:56px;font-weight:700;-webkit-text-stroke-width:4px;-webkit-text-stroke-color:#ff1500;letter-spacing:8px;text-align:center;margin-top:-13px;-webkit-font-smoothing:antialiased;z-index:9;position:relative}
 .win.win-shadow{font-size:56px;position:relative;margin-top:-80px;-webkit-text-stroke-width:8px;-webkit-text-stroke-color:#0009aa;z-index:8;margin-left:1px;color:#0009aa}
-.bg.banner{background:url(../imgs/bg.png);height: 734px;background-repeat:no-repeat;background-size: 129%;background-repeat:no-repeat;background-position: -190px 191px;padding-top:209px;}
+.bg.banner{background:url(../imgs/bg.png);height:734px;background-repeat:no-repeat;background-size:129%;background-repeat:no-repeat;background-position:-190px 191px;padding-top:209px}
 .logo{width:144px;margin-top:49px;padding-left:47px}
-.banner .container{ text-align:center}
+.banner .container{text-align:center}
 .banner-left{padding-left:54px;padding-top:53px}
 .slogan{font-size:35px;font-weight:700;-webkit-font-smoothing:antialiased;padding-top:78px;line-height:68px;text-align:center;margin-left:-15px;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#010101;letter-spacing:1px}
 .slogan b{display:block}
@@ -41,8 +41,8 @@ label.form-check-label{width:calc(100% - 7px);color:#090909;text-align:left;padd
 .type button.btn{background:var(--color2);width:calc(100% - 32px);color:#fff;margin-left:-22px;height:48px;margin-top:10px;box-shadow:2px 3px #aaa6a0;font-size:19px;text-transform:uppercase;word-spacing:4px;transition:all .5s ease}
 .container-fluid.header{position:absolute;width:100%;z-index:9;overflow:hidden}
 .fields-cont{padding:0 23px}
-.stamp{margin-top:12px;width: 161px;position:absolute;right:20px;z-index:9;}
-p.desc{font-size:12px;padding-top: 185px;font-weight:700;width:54%;margin:auto;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px;}
+.stamp{margin-top:12px;width:161px;position:absolute;right:20px;z-index:9}
+p.desc{font-size:12px;padding-top:185px;font-weight:700;width:54%;margin:auto;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px}
 .form .title{margin-bottom:17px;font-size:26px;margin-top:28px;color:#0009aa;font-weight:700;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#0009aa;letter-spacing:1px}
 .type{margin-top:30px}
 .type-title{font-size:25px;margin-top:7px;margin-bottom:1px}
@@ -50,7 +50,7 @@ p.desc{font-size:12px;padding-top: 185px;font-weight:700;width:54%;margin:auto;-
 .type-slogan{font-size:20px}
 .steps{padding:30px 0;text-align:center;width:70%;margin:auto;padding-bottom:34px}
 .steps h5{font-size:21px;margin-bottom:40px;-webkit-text-stroke-width:1.5px;-webkit-text-stroke-color:#221b22;margin-top:0;letter-spacing:1px}
-.step .img{width:78px;margin:auto;margin-bottom:30px;height: 80px;}
+.step .img{width:78px;margin:auto;margin-bottom:30px;height:80px}
 .step .name{width:160px;margin:auto;margin-top:-20px}
 footer .logo{margin:auto;padding-left:0}
 .time{width:145px;max-width:40%}
@@ -152,7 +152,7 @@ footer{float:left;height:160px}
 footer .text{width:90%}
 }
 @media screen and (max-width: 767px) {
-    input#tc{margin-top:-5px}
+input#tc{margin-top:-5px}
 .win{font-size:26px;margin-top:0;-webkit-text-stroke-width:2px;letter-spacing:6px}
 .ball{margin:30px 0}
 .win.win-shadow{font-size:26px;margin-top:-38px;-webkit-text-stroke-width:5px}
@@ -170,45 +170,34 @@ footer .text a{text-decoration:underline}
 .banner .container{padding:0}
 }
 @media screen and (max-width:360px) {
-    .balls>div{padding:0}
+.balls>div{padding:0}
 p.desc{font-size:15px}
 input#tc{margin-top:-5px}
-.slogan{font-size: 19px;letter-spacing: 0px;-webkit-text-stroke-width: 0px;}
+.slogan{font-size:19px;letter-spacing:0;-webkit-text-stroke-width:0}
 .action h4{font-size:20px}
-.win{font-size: 24px;margin-top:0;-webkit-text-stroke-width: 1px;letter-spacing:5px;}
-.win.win-shadow{font-size: 24px;margin-top: -34px;-webkit-text-stroke-width: 3px;}
+.win{font-size:24px;margin-top:0;-webkit-text-stroke-width:1px;letter-spacing:5px}
+.win.win-shadow{font-size:24px;margin-top:-34px;-webkit-text-stroke-width:3px}
 .bg.banner{height:130px}
 .stamp{width:90px;margin-top:85px}
 .banner-right{margin-top:120px}
 .form .title{font-size:20px}
 }
 @media screen and (max-width:320px) {
-.bg.banner{height:110px;background-position: 0 47px;}
-
-footer .logo{width: 100px;padding-left:0;}
-.action h4{
-    font-size: 19px;
-}
-.ball .next{font-size: 11px;}
+.bg.banner{height:110px;background-position:0 47px}
+footer .logo{width:100px;padding-left:0}
+.action h4{font-size:19px}
+.ball .next{font-size:11px}
 .balls>div{padding:0}
 p.desc{font-size:15px}
-input#tc{margin-top: 1px;}
-.slogan{
-    padding-top: 0;
-    font-size: 17px;
-}
-.win{font-size: 18px;margin-top: 0;-webkit-text-stroke-width: 2px;letter-spacing:5px;}
-.win.win-shadow{font-size: 18px;margin-top: -25px;-webkit-text-stroke-width: 3px;}
-.stamp{width:70px;margin-top: 65px;}
-.banner-right{margin-top: 110px;}
+input#tc{margin-top:1px}
+.slogan{padding-top:0;font-size:17px}
+.win{font-size:18px;margin-top:0;-webkit-text-stroke-width:2px;letter-spacing:5px}
+.win.win-shadow{font-size:18px;margin-top:-25px;-webkit-text-stroke-width:3px}
+.stamp{width:70px;margin-top:65px}
+.banner-right{margin-top:110px}
 .fields-cont>*{padding:6px 19px}
-label.form-check-label{
-    width: calc(100% - 5px);
-    font-size: 8px;
-    margin-bottom: 0;
-    line-height: 9px;
-}
+label.form-check-label{width:calc(100% - 5px);font-size:8px;margin-bottom:0;line-height:9px}
 button.btn{height:40px}
-.form-check{margin-top:0;margin-bottom: 0!important;padding-top: 0;}
-.fields-cont>*{margin-bottom: 10px;}
+.form-check{margin-top:0;margin-bottom:0!important;padding-top:0}
+.fields-cont>*{margin-bottom:10px}
 }
