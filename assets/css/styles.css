@@ -68,7 +68,7 @@ footer{background:#ededed;height:150px;background-size:100% 150px;margin-top:9px
 .form button.btn:hover{background:#555}
 .type button.btn:hover{background:#5ec039}
 @media screen and (max-width: 1300px) {
-.container{width:95%}
+.container{width: 100%;padding: 0;}
 .type-logo{margin-left:0;height:240px}
 .type-detail{padding-left:40px}
 .type-slogan{font-size:16px}
@@ -80,29 +80,50 @@ p.desc{padding-left:10px}
 .type button.btn{width:100%;margin-left:-15px}
 }
 @media screen and (max-width:1024px) {
+
     footer .text{width:100%}
     p.desc{width:90%}
 
-.bg.banner{background-position: -320px 211px;background-size: 160%;}
-.row.balls{
-    width: 100%;
-}
+    .bg.banner{background-position: -320px 211px;background-size: 160%;}
+
 }
 @media screen and (max-width:992px) {
 .type-detail{padding-left:15px}
 .type-detail p{font-size:16px}
 }
 @media screen and (max-width:768px) {
-.stamp{width:198px;margin:auto;position:relative;z-index:9;margin-top:14px}
+    .action {float: left;}
+    .action .btn.primary{width:90%}
+        .fluid-container.steps-cont{display:none}
+    .win {
+    font-size: 27px;
+    margin-top: 30px;
+    z-index: 10;
+    position: relative;
+    -webkit-text-stroke-width: 5px;
+    margin-top: 50px;
+}
+
+.win.win-shadow {
+    font-size: 26px;
+    -webkit-text-stroke-width: 3px;
+    z-index: 2;
+    position: relative;
+}
+.row.balls{
+    width: 100%;
+    margin-top: 0;
+}
+.stamp{width: 138px;/* margin:auto; *//* position:relative; *//* z-index:9; */margin-top: 144px;}
 .banner-left{width:100%}
-.banner-right{width:100%;margin-top:-72px}
-.bg.banner{background:url(../imgs/m_header.png);background-repeat:no-repeat;background-size:100% 36%;background-position:0 0}
-.logo{margin:auto;margin-top:11px;margin-bottom:21px;width:170px}
-.bg.banner{padding-top:0}
-.slogan{padding-top:70px;font-size:28px;line-height:38px}
+.banner-right{width:100%;margin-top: 248px;}
+.bg.banner{/* background:url(../imgs/m_header.png); *//* background-repeat:no-repeat; *//* background-size:100% 36%; *//* background-position:0 0; */}
+.header .logo{display: none;/* margin-top:11px; *//* margin-bottom:21px; *//* width:170px; */}
+.bg.banner{background-size: 100%;background-position: 0px 110px;padding-top: 0;height: 300px;}
+.slogan{padding-top: 30px;font-size: 24px;line-height:38px;}
 .balls img:last-of-type{width:70px;width:120px}
 .mobile{display:block}
-.form{box-shadow:none;margin-left:0;padding:3px 33px}
+.form{box-shadow:none;margin-left:0;padding: 0;width: 100%;text-align: left;}
 p.desc{padding:10px;font-size:18px;margin-top:5px}
 p.desc>span{display:inline-block}
 .desktop{display:none}
@@ -123,10 +144,14 @@ p.desc>span{display:inline-block}
 .mid p:last-of-type:after{padding-left:9px}
 .mid p:last-of-type{position:relative;line-height:5px}
 .types{float:left;width:100%;margin-top:-112px}
-.form .title{margin-top:36px;margin-bottom:5px}
-.fields-cont>*{margin-bottom:15px}
+.form .title{margin-top:36px;margin-bottom:5px;padding-left: 30px;}
+.fields-cont>*{margin-bottom:15px;padding: 8px 19px;}
 label.form-check-label{width:calc(100% - 26px);word-spacing:0;margin-top:-7px}
 .type-title{font-size:20px}
 .type button.btn{margin-left:0;height:35px;font-size:14px;margin-bottom:6px}
-footer{background:url(../imgs/m_footer.png);background-repeat:no-repeat;height:97px;background-size:100% 110px}
+footer{/* background:url(../imgs/m_footer.png); *//* background-repeat:no-repeat; *//* height:97px; *//* background-size:100% 110px; */float: left;/* margin-top: 150px; */height: 200px;}
+
+footer .text {
+    width: 90%;
+}
 }
