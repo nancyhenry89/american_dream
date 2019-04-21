@@ -190,7 +190,7 @@ input#tc{margin-top:-5px}
 .form .title{font-size:20px;}
 }
 @media screen and (max-width:320px) {
-.bg.banner{height:110px;background-position: 0 47px;}
+.bg.banner{height: 160px;background-position: 0 47px;}
 
 footer .logo{width: 100px;padding-left:0;}
 .action h4{
