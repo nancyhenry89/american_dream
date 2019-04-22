@@ -15,7 +15,7 @@ footer .text p{margin-bottom:0}
 .next>span:last-of-type{color:#ff3c47;-webkit-text-stroke-color:#ff3c47}
 .ball-img img{height:auto}
 .win{color:#ff1500;font-size:56px;font-weight:700;-webkit-text-stroke-width:4px;-webkit-text-stroke-color:#ff1500;letter-spacing:8px;text-align:center;margin-top:-13px;-webkit-font-smoothing:antialiased;z-index:9;position:relative}
-.win.win-shadow{font-size:56px;position:relative;margin-top:-80px;-webkit-text-stroke-width:8px;-webkit-text-stroke-color:#121544;z-index:8;margin-left:1px;color:#121544}
+.win.win-shadow{font-size:56px;position:relative;margin-top:-80px;-webkit-text-stroke-width:8px;-webkit-text-stroke-color:#121544;z-index:8;margin-left:1px;color:#121544;text-shadow: 1px 5px 9px #827b7b;}
 .bg.banner{background:url(../imgs/bg.png);height:734px;background-repeat:no-repeat;background-size:129%;background-repeat:no-repeat;background-position:-190px 191px;padding-top:209px}
 .logo{width:144px;margin-top:49px;padding-left:47px}
 .banner .container{text-align:center}
