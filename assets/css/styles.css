@@ -5,11 +5,11 @@ img{max-width:100%}
 .mobile{display:none}
 .step{margin-top:9px}
 .steps>div:nth-of-type(2) .img{width:60px}
-footer .text{font-size:10px;width:70%;margin:auto;color:#6b6b6b;margin-bottom:7px}
+footer .text{font-size:10px;width:70%;margin:auto;color:#6b6b6b;margin-bottom:7px;max-width: 1200px;}
 footer .text a{color:#6b6b6b}
 .row{max-width:100%;margin:0}
 footer .text p{margin-bottom:0}
-.row.balls{width:70%;margin:auto;margin-top:56px;font-weight:700;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px;font-size:12px}
+.row.balls{width:70%;margin:auto;margin-top:56px;font-weight:700;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px;font-size:12px;max-width: 1200px;}
 .ball-img{width:86px;margin:auto;margin-bottom:9px;height:90px;display:flex;align-items:center;justify-content:center}
 .next{margin-top:13px}
 .next>span:last-of-type{color:#ff3c47;-webkit-text-stroke-color:#ff3c47}
@@ -41,14 +41,14 @@ label.form-check-label{width:calc(100% - 7px);color:#090909;text-align:left;padd
 .type button.btn{background:var(--color2);width:calc(100% - 32px);color:#fff;margin-left:-22px;height:48px;margin-top:10px;box-shadow:2px 3px #aaa6a0;font-size:19px;text-transform:uppercase;word-spacing:4px;transition:all .5s ease}
 .container-fluid.header{position:absolute;width:100%;z-index:9;overflow:hidden}
 .fields-cont{padding:0 23px}
-.stamp{margin-top:12px;width:161px;position:absolute;right:20px;z-index:9}
-p.desc{font-size:12px;padding-top:185px;font-weight:700;width:54%;margin:auto;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px}
+.stamp{margin-top: 42px;width: 250px;position:absolute;right:20px;z-index:9;}
+p.desc{font-size:12px;padding-top:185px;font-weight:700;width:54%;margin:auto;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#000;letter-spacing:1px;max-width: 1200px;}
 .form .title{margin-bottom:17px;font-size:26px;margin-top:28px;color:#0009aa;font-weight:700;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#0009aa;letter-spacing:1px}
 .type{margin-top:30px}
 .type-title{font-size:25px;margin-top:7px;margin-bottom:1px}
 .type-detail{padding-left:29px}
 .type-slogan{font-size:20px}
-.steps{padding:30px 0;text-align:center;width:70%;margin:auto;padding-bottom:34px}
+.steps{padding:30px 0;text-align:center;width:70%;margin:auto;padding-bottom:34px;max-width: 1200px;}
 .steps h5{font-size:21px;margin-bottom:40px;-webkit-text-stroke-width:1.5px;-webkit-text-stroke-color:#221b22;margin-top:0;letter-spacing:1px}
 .step .img{width:78px;margin:auto;margin-bottom:30px;height:80px}
 .step .name{width:160px;margin:auto;margin-top:-20px}
@@ -62,14 +62,14 @@ footer{background:#ededed;height:150px;background-size:100% 150px;margin-top:9px
 @media screen and (min-width: 1440px) {
 .logo{width:180px}
 .slogan{font-size:46px}
-.win{font-size:60px}
-.win.win-shadow{font-size:60px;margin-top:-85px}
+.win{font-size: 85px;}
+.win.win-shadow{font-size: 85px;margin-top: -121px;}
 .form .title{font-size:36px}
-.form{width:380px}
+.form{width:380px;margin-top: 40px;}
 .fields-cont>*{padding:10px;font-size:14px}
 label.form-check-label{line-height:13px;font-size:10px}
 button.btn{height:50px}
-.bg.banner{height:750px;background-size:130%;background-position:-250px 170px}
+.bg.banner{height: 810px;background-size: 130%;background-position: -250px 190px;}
 p.desc{font-size:18px;width:81%;padding-top: 120px;}
 .row.balls{width:90%;margin-top:80px;font-size:16px}
 .ball-img{width:100px;margin-bottom:40px}
@@ -142,7 +142,7 @@ p.desc>span{display:inline-block}
 .mid p:last-of-type{position:relative;line-height:5px}
 .types{float:left;width:100%;margin-top:-112px}
 .form .title{padding-top:40px;margin-bottom:5px;padding-left:5%;width:calc(100% - 30px);margin-left:15px}
-.fields-cont>*{margin-bottom:15px;padding:8px 19px;max-width:90%;margin-left:auto;margin-right:auto}
+.fields-cont>*{margin-bottom: 10px;padding: 12px 22px;max-width:90%;margin-left:auto;margin-right:auto;}
 button.btn{height:45px;max-width:90%;margin:auto}
 .form-check{font-size:10px;line-height:42px;margin-bottom:0}
 label.form-check-label{width:calc(100% - 26px);word-spacing:0;margin-top:-7px}
