@@ -195,13 +195,13 @@ footer .logo{width:100px;padding-left:0}
 p.desc{font-size:15px}
 input#tc{margin-top:1px}
 .slogan{padding-top:0;font-size:17px}
-.win{font-size:18px;margin-top:0;-webkit-text-stroke-width:2px;letter-spacing:5px}
-.win.win-shadow{font-size:18px;margin-top:-25px;-webkit-text-stroke-width:3px}
-.stamp{width:70px;margin-top:65px}
+.win{font-size: 34px;margin-top: -13px;-webkit-text-stroke-width:2px;letter-spacing: 2px;}
+.win.win-shadow{font-size: 34px;margin-top: -47px;-webkit-text-stroke-width:3px;}
+.stamp{width: 120px;margin-top:65px;}
 .banner-right{margin-top:110px}
-.fields-cont>*{padding:6px 19px}
+.fields-cont>*{/* padding:6px 19px */}
 label.form-check-label{width:calc(100% - 5px);font-size:8px;margin-bottom:0;line-height:9px}
-button.btn{height:40px}
+button.btn{height: 50px;}
 .form-check{margin-top:0;margin-bottom:0!important;padding-top:0}
 .fields-cont>*{margin-bottom:10px}
 }
